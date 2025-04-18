@@ -66,5 +66,5 @@ while True:
         config={"configurable": {"session_id": "user-123"}}  # required for memory to work
     )
     print(f"AI: {response.content}\n")
-    print(memory_store.messages)
+    # print(memory_store.messages)
 
