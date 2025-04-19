@@ -28,9 +28,9 @@ db = Chroma.from_documents(
     persist_directory='emb'
 )
 
-# results = db._similarity_search_with_relevance_scores('What is an interesting fact about the English language')
+results = db._similarity_search_with_relevance_scores('What is an interesting fact about the English language')
 
-# for r in results:
-#     print(r[1])
-#     print(r[0].page_content)
-#     print('\n')
+for r in results:
+    print(r[1])
+    print(r[0].page_content)
+    print('\n')
