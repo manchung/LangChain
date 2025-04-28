@@ -68,6 +68,7 @@ langchain-openai==0.3.13
 langchain-pinecone==0.2.5
 langchain-tests==0.3.19
 langchain-text-splitters==0.3.8
+langfuse==2.60.3
 langsmith==0.3.31
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
